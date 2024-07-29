@@ -25,10 +25,10 @@
 # assume GitHub.com, then you can use the user/repo shorthand.
 #
 ###
-https://github.com/peterhurford/up.zsh
+# https://github.com/peterhurford/up.zsh
 rummik/zsh-tailf
-mattmc3/zman
-agkozak/zsh-z
+# mattmc3/zman
+# agkozak/zsh-z
 
 
 ### Local Plugins
@@ -79,7 +79,7 @@ $ZDOTDIR/.aliases
 romkatv/powerlevel10k kind:fpath
 
 # Or, just load a prompt plugin the normal way.
-sindresorhus/pure
+# sindresorhus/pure
 
 
 ### Utilities
@@ -90,7 +90,7 @@ sindresorhus/pure
 # bundles can often be made available simply with the `kind:path` annotation.
 #
 ###
-romkatv/zsh-bench kind:path
+# romkatv/zsh-bench kind:path
 
 
 ### Frameworks
@@ -104,6 +104,15 @@ romkatv/zsh-bench kind:path
 #
 ###
 
+### Framework: Zephyr
+
+mattmc3/zephyr path:plugins/macos
+mattmc3/zephyr path:plugins/history
+mattmc3/zephyr path:plugins/homebrew
+mattmc3/zephyr path:plugins/color
+mattmc3/zephyr path:plugins/utility
+mattmc3/zephyr path:plugins/editor
+mattmc3/zephyr path:plugins/color
 
 ### Framework: Oh-My-Zsh
 #
@@ -120,13 +129,18 @@ romkatv/zsh-bench kind:path
 #
 ####
 getantidote/use-omz
+# ohmyzsh/ohmyzsh path:plugins/magic-enter
+# ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z
 ohmyzsh/ohmyzsh path:lib/clipboard.zsh
 ohmyzsh/ohmyzsh path:plugins/copybuffer
 ohmyzsh/ohmyzsh path:plugins/copyfile
 ohmyzsh/ohmyzsh path:plugins/copypath
 ohmyzsh/ohmyzsh path:plugins/extract
-ohmyzsh/ohmyzsh path:plugins/magic-enter
-ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z
+ohmyzsh/ohmyzsh path:plugins/command-not-found
+ohmyzsh/ohmyzsh path:plugins/copydir
+ohmyzsh/ohmyzsh path:plugins/sudo
+ohmyzsh/ohmyzsh path:plugins/history
+ohmyzsh/ohmyzsh path:plugins/dirhistory
 
 
 ### Framework: Prezto
@@ -176,9 +190,9 @@ ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z
 # If you want a really thin framework, this is great.
 #
 ###
-belak/zsh-utils path:history
-belak/zsh-utils path:utility
-belak/zsh-utils path:editor
+# belak/zsh-utils path:history
+# belak/zsh-utils path:utility
+# belak/zsh-utils path:editor
 
 
 ### Deferred Plugins
@@ -218,7 +232,9 @@ zsh-users/zsh-completions path:src kind:fpath
 # If you want to use the belak/zsh-utils completion plugin to run your compinit, this
 # plugin is meant to be run near the END of your .zsh_plugins.txt file after fpath is
 # fully populated.
-belak/zsh-utils path:completion
+# belak/zsh-utils path:completion
+mattmc3/zephyr path:plugins/completion
+
 
 
 ### Final Plugins
