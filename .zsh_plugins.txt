@@ -18,6 +18,11 @@
 #
 ###
 
+# With antidote, using Zephyr's completion plugin is recommended. This plugin is meant
+# to be run near the TOP of your .zsh_plugins.txt file.
+
+# mattmc3/zephyr path:plugins/completion
+
 
 ### Regular Plugins
 #
@@ -233,8 +238,6 @@ zsh-users/zsh-completions path:src kind:fpath
 # plugin is meant to be run near the END of your .zsh_plugins.txt file after fpath is
 # fully populated.
 # belak/zsh-utils path:completion
-mattmc3/zephyr path:plugins/completion
-
 
 
 ### Final Plugins
