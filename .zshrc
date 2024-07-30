@@ -3,7 +3,7 @@
 # .zshrc - Zsh file loaded on interactive shell sessions.
 #
 
-# Zsh options.
+# Compfix setup (https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/compfix.zsh):
 ZSH_DISABLE_COMPFIX="false"
 setopt extended_glob
 
@@ -14,6 +14,15 @@ autoload -Uz $fpath[1]/*(.:t)
 
 # Source zstyles you might use with antidote.
 [[ -e ${ZDOTDIR:-~}/.zstyles ]] && source ${ZDOTDIR:-~}/.zstyles
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 # Clone antidote if necessary.
 [[ -d ${ZDOTDIR:-~}/.antidote ]] ||
