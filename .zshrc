@@ -4,6 +4,7 @@
 #
 
 # Zsh options.
+ZSH_DISABLE_COMPFIX="false"
 setopt extended_glob
 
 # Autoload functions you might want to use with antidote.
