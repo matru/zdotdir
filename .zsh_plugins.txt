@@ -31,6 +31,7 @@
 #
 ###
 # https://github.com/peterhurford/up.zsh
+marlonrichert/zsh-autocomplete
 olets/zsh-abbr
 rummik/zsh-tailf
 # mattmc3/zman
