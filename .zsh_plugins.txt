@@ -95,7 +95,7 @@ $ZDOTDIR/.aliases
 # bundles can often be made available simply with the `kind:path` annotation.
 #
 ###
-# romkatv/zsh-bench kind:path
+romkatv/zsh-bench kind:path
 
 
 ### Frameworks
