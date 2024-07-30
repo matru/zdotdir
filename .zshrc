@@ -25,9 +25,10 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
 # Clone antidote if necessary.
-[[ -d ${ZDOTDIR:-~}/.antidote ]] ||
-  git clone https://github.com/mattmc3/antidote ${ZDOTDIR:-~}/.antidote
+# [[ -d ${ZDOTDIR:-~}/.antidote ]] ||
+  # git clone https://github.com/mattmc3/antidote ${ZDOTDIR:-~}/.antidote
 
 # Create an amazing Zsh config using antidote plugins.
-source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+# source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 antidote load
