@@ -31,7 +31,6 @@
 #
 ###
 # https://github.com/peterhurford/up.zsh
-marlonrichert/zsh-autocomplete
 olets/zsh-abbr
 rummik/zsh-tailf
 # mattmc3/zman
@@ -239,7 +238,8 @@ zsh-users/zsh-completions path:src kind:fpath
 # If you want to use the belak/zsh-utils completion plugin to run your compinit, this
 # plugin is meant to be run near the END of your .zsh_plugins.txt file after fpath is
 # fully populated.
-belak/zsh-utils path:completion
+# belak/zsh-utils path:completion
+marlonrichert/zsh-autocomplete
 
 
 ### Final Plugins
