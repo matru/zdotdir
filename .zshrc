@@ -21,7 +21,6 @@ source <(fzf --zsh)
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
-eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
 # Clone antidote if necessary.
@@ -32,3 +31,6 @@ eval "$(zoxide init zsh)"
 # source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 antidote load
+
+# make sure starship is at the end as it bugs out otherwise (half-loads)
+eval "$(starship init zsh)"
