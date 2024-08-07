@@ -117,7 +117,7 @@ mattmc3/zephyr path:plugins/history
 mattmc3/zephyr path:plugins/homebrew
 mattmc3/zephyr path:plugins/color
 mattmc3/zephyr path:plugins/utility
-mattmc3/zephyr path:plugins/editor
+#mattmc3/zephyr path:plugins/editor
 mattmc3/zephyr path:plugins/color
 
 ### Framework: Oh-My-Zsh
