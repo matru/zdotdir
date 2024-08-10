@@ -244,7 +244,7 @@ marlonrichert/zsh-autocomplete
 
 # Plugins that say to load them after compinit:
 #Aloxaf/fzf-tab
-lincheney/fzf-tab-completion
+#lincheney/fzf-tab-completion path:zsh
 
 # Other plugins that should be loaded at the end:
 zsh-users/zsh-autosuggestions

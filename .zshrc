@@ -22,7 +22,7 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 # keybinds
-bindkey '^I' fzf_completion
+#bindkey '^I' fzf_completion
 
 eval "$(zoxide init zsh)"
 
