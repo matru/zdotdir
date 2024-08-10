@@ -21,6 +21,9 @@ source <(fzf --zsh)
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
+# keybinds
+bindkey '^I' fzf_completion
+
 eval "$(zoxide init zsh)"
 
 # Clone antidote if necessary.

@@ -243,8 +243,9 @@ zsh-users/zsh-completions path:src kind:fpath
 marlonrichert/zsh-autocomplete
 
 # Plugins that say to load them after compinit:
-Aloxaf/fzf-tab
+#Aloxaf/fzf-tab
+lincheney/fzf-tab-completion
 
 # Other plugins that should be loaded at the end:
 zsh-users/zsh-autosuggestions
-zsh-users/zsh-history-substring-search
+#zsh-users/zsh-history-substring-search
